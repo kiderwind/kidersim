@@ -12,7 +12,7 @@ Current 2013-01-01
 
   <sim>
 
-    <description>Glaser-Dirks DG-101G (JSBSIM)</description>
+    <description>Glaser-Dirks DG-101G kider (JSBSIM)</description>
     <author>Nikolaus Kerner</author>
     <status>development</status>
     <rating>
@@ -23,7 +23,7 @@ Current 2013-01-01
     </rating>
     <aircraft-version>2013-01-01</aircraft-version>
     <startup>
-      <splash-texture>Aircraft/DG-101G/splash.png</splash-texture>
+      <splash-texture>Aircraft/DG-101G-kider/splash.png</splash-texture>
     </startup>
 
 
@@ -36,7 +36,7 @@ Current 2013-01-01
 
 
     <model>
-      <path archive="y">Aircraft/DG-101G/Models/DG-101G.xml</path>
+      <path archive="y">Aircraft/DG-101G-kider/Models/DG-101G.xml</path>
       
       
       <livery>
@@ -148,7 +148,7 @@ Current 2013-01-01
 
 
     <sound>
-      <path archive="y">Aircraft/DG-101G/dg101g_sound.xml</path>
+      <path archive="y">Aircraft/DG-101G-kider/dg101g_sound.xml</path>
     </sound>
 
 
@@ -381,17 +381,17 @@ Current 2013-01-01
 
   <nasal>
     <dg101g>
-      <file>Aircraft/DG-101G/Nasal/aerotowing.nas</file>
-      <file>Aircraft/DG-101G/Nasal/dialogs.nas</file>
-      <file>Aircraft/DG-101G/Nasal/dragrobot.nas</file>
-      <file>Aircraft/DG-101G/Nasal/liveries.nas</file>
-      <file>Aircraft/DG-101G/Nasal/messages.nas</file>
-      <file>Aircraft/DG-101G/Nasal/te-vario.nas</file>
-      <file>Aircraft/DG-101G/Nasal/thermal.nas</file>
-      <file>Aircraft/DG-101G/Nasal/waterballast.nas</file>
-      <file>Aircraft/DG-101G/Nasal/winch.nas</file>
+      <file>Aircraft/DG-101G-kider/Nasal/aerotowing.nas</file>
+      <file>Aircraft/DG-101G-kider/Nasal/dialogs.nas</file>
+      <file>Aircraft/DG-101G-kider/Nasal/dragrobot.nas</file>
+      <file>Aircraft/DG-101G-kider/Nasal/liveries.nas</file>
+      <file>Aircraft/DG-101G-kider/Nasal/messages.nas</file>
+      <file>Aircraft/DG-101G-kider/Nasal/te-vario.nas</file>
+      <file>Aircraft/DG-101G-kider/Nasal/thermal.nas</file>
+      <file>Aircraft/DG-101G-kider/Nasal/waterballast.nas</file>
+      <file>Aircraft/DG-101G-kider/Nasal/winch.nas</file>
       <!-- This binds the joystick's throttle slider to the spoilers. -->
-      <file>Aircraft/DG-101G/Nasal/speedbrakes_throttle.nas</file>
+      <file>Aircraft/DG-101G-kider/Nasal/speedbrakes_throttle.nas</file>
     </dg101g>
   </nasal>
 

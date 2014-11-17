@@ -10,29 +10,29 @@
 # ####################################################################################
 # basic fucntions to create dialogs
 var config_dialog = gui.Dialog.new("sim/gui/dialogs/dg101g/config/dialog", 
-                                   "Aircraft/DG-101G/Dialogs/config.xml");
+                                   "Aircraft/DG-101G-kider/Dialogs/config.xml");
 
 var aerotowing_ai_dialog = gui.Dialog.new(
                                   "sim/gui/dialogs/dg101g/aerotowing_ai/dialog", 
-                                  "Aircraft/DG-101G/Dialogs/aerotowing_ai.xml");
+                                  "Aircraft/DG-101G-kider/Dialogs/aerotowing_ai.xml");
 
 var aerotowing_advanced_dialog = gui.Dialog.new(
                                   "sim/gui/dialogs/dg101g/aerotowing_advanced/dialog",
-                                  "Aircraft/DG-101G/Dialogs/aerotowing_advanced.xml");
+                                  "Aircraft/DG-101G-kider/Dialogs/aerotowing_advanced.xml");
 
 
 var dragrobot_dialog = gui.Dialog.new("sim/gui/dialogs/dg101g/dragrobot/dialog", 
-                                  "Aircraft/DG-101G/Dialogs/dragrobot.xml");
+                                  "Aircraft/DG-101G-kider/Dialogs/dragrobot.xml");
 var dragrobot_advanced_dialog = gui.Dialog.new(
                                   "sim/gui/dialogs/dg101g/dragrobot_advanced/dialog",
-                                  "Aircraft/DG-101G/Dialogs/dragrobot_advanced.xml");
+                                  "Aircraft/DG-101G-kider/Dialogs/dragrobot_advanced.xml");
 
 var winch_dialog = gui.Dialog.new("sim/gui/dialogs/dg101g/winch/dialog", 
-                                  "Aircraft/DG-101G/Dialogs/winch.xml");
+                                  "Aircraft/DG-101G-kider/Dialogs/winch.xml");
 
 var winch_advanced_dialog = gui.Dialog.new(
                                   "sim/gui/dialogs/dg101g/winch_advanced/dialog", 
-                                  "Aircraft/DG-101G/Dialogs/winch_advanced.xml");
+                                  "Aircraft/DG-101G-kider/Dialogs/winch_advanced.xml");
 
 
 # ####################################################################################

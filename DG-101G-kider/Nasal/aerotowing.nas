@@ -668,7 +668,7 @@ var createTowingRope = func {
   towrope_ai.getNode("orientation/roll-deg", 1).setValue(0);
   
   towrope_mod.model = towrope_mod.getChild("model", freeModelid, 1);
-  towrope_mod.model.getNode("path", 1).setValue("Aircraft/DG-101G/Models/Ropes/towingrope.xml");
+  towrope_mod.model.getNode("path", 1).setValue("Aircraft/DG-101G-kider/Models/Ropes/towingrope.xml");
   towrope_mod.model.getNode("longitude-deg-prop", 1).setValue(
         "ai/models/towrope/position/longitude-deg");
   towrope_mod.model.getNode("latitude-deg-prop", 1).setValue(

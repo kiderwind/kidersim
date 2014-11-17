@@ -15,7 +15,7 @@
     <main-wheel-rumble>
       <name>main-wheel-rumble</name>
       <mode>looped</mode>
-      <path>Aircraft/DG-101G/Sounds/ground_roll2.wav</path>
+      <path>Aircraft/DG-101G-kider/Sounds/ground_roll2.wav</path>
       <condition>
         <property>/gear/gear[0]/wow</property>  <!-- main wheel -->
       </condition>
@@ -28,7 +28,7 @@
     <tail-wheel-rumble>
       <name>tail-wheel-rumble</name>
       <mode>looped</mode>
-      <path>Aircraft/DG-101G/Sounds/ground_roll3.wav</path>
+      <path>Aircraft/DG-101G-kider/Sounds/ground_roll3.wav</path>
       <condition>
         <property>/gear/gear[1]/wow</property>  <!-- tail wheel -->
       </condition>
@@ -41,7 +41,7 @@
     <left-wing-tip>
       <name>left-wing-tip</name>
       <mode>once</mode>
-      <path>Aircraft/DG-101G/Sounds/left-wing-tip.wav</path>
+      <path>Aircraft/DG-101G-kider/Sounds/left-wing-tip.wav</path>
       <condition>
         <property>/gear/gear[2]/wow</property>  <!-- skid on left side -->
       </condition>
@@ -50,7 +50,7 @@
     <right-wing-tip>
       <name>right-wing-tip</name>
       <mode>once</mode>
-      <path>Aircraft/DG-101G/Sounds/right-wing-tip.wav</path>
+      <path>Aircraft/DG-101G-kider/Sounds/right-wing-tip.wav</path>
       <condition>
         <property>/gear/gear[3]/wow</property>  <!-- skid on right side -->
       </condition>
@@ -63,7 +63,7 @@
     <airbrakes_lock>
       <name>airbrakes_lock</name>
       <mode>once</mode>
-      <path>Aircraft/DG-101G/Sounds/airbrakes-lock.wav</path>
+      <path>Aircraft/DG-101G-kider/Sounds/airbrakes-lock.wav</path>
       <condition>
         <equals>
           <property>controls/engines/engine/throttle</property>
@@ -75,7 +75,7 @@
     <cable_release>
       <name>cable_release</name>
       <mode>once</mode>
-      <path>Aircraft/DG-101G/Sounds/winch_release.wav</path>
+      <path>Aircraft/DG-101G-kider/Sounds/winch_release.wav</path>
       <condition>
         <property>sim/glider/winch/flags/pull</property>
       </condition>
@@ -88,7 +88,7 @@
     <wind>
       <name>wind</name>
       <mode>looped</mode>
-      <path>Aircraft/DG-101G/Sounds/wind-dg101g.wav</path>
+      <path>Aircraft/DG-101G-kider/Sounds/wind-dg101g.wav</path>
       <property>velocities/airspeed-kt</property>
       <volume>
         <property>position/altitude-ft</property>
@@ -113,7 +113,7 @@
     <airbrakes>
      <name>airbrakes</name>
      <mode>looped</mode>
-     <path>Aircraft/DG-101G/Sounds/airbrakes2.wav</path>
+     <path>Aircraft/DG-101G-kider/Sounds/airbrakes2.wav</path>
      <property>velocities/airspeed-kt</property>
      <volume>
        <property>/surface-positions/speedbrake-pos-norm</property>
@@ -138,7 +138,7 @@
     <winch_tow>
       <name>winch_tow</name>
       <mode>looped</mode>
-      <path>Aircraft/DG-101G/Sounds/winch_tow.wav</path>
+      <path>Aircraft/DG-101G-kider/Sounds/winch_tow.wav</path>
       <condition>
         <equals>
           <property>sim/glider/winch/flags/pull</property>

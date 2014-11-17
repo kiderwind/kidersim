@@ -12,7 +12,7 @@
 
  <nasal>
    <load>
-     var livery_update = aircraft.livery_update.new("Aircraft/DG-101G/Models/Liveries");
+     var livery_update = aircraft.livery_update.new("Aircraft/DG-101G-kider/Models/Liveries");
    </load>
    <unload>
      livery_update.stop();
@@ -57,7 +57,7 @@
  <!-- Instruments -->
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/80mm_asi_6fms4.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/80mm_asi_6fms4.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m>-0.0900</y-m>
@@ -67,7 +67,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/80mm_screws.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/80mm_screws.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m>-0.0900</y-m>
@@ -77,7 +77,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/80mm_alti_4fgh10.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/80mm_alti_4fgh10.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m> 0.0000</y-m>
@@ -87,7 +87,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/80mm_alti_4fgh10_ring.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/80mm_alti_4fgh10_ring.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m> 0.0000</y-m>
@@ -97,7 +97,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/80mm_screws.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/80mm_screws.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m> 0.0000</y-m>
@@ -107,7 +107,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/80mm_vsi_5stv5.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/80mm_vsi_5stv5.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m> 0.0900</y-m>
@@ -117,7 +117,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/80mm_vsi_5stv5_dg101g.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/80mm_vsi_5stv5_dg101g.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m> 0.0900</y-m>
@@ -127,7 +127,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/80mm_screws.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/80mm_screws.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m> 0.0900</y-m>
@@ -137,7 +137,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/57mm_vsi_5m.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/57mm_vsi_5m.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m>-0.0350</y-m>
@@ -147,7 +147,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/57mm_screws.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/57mm_screws.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m>-0.0350</y-m>
@@ -157,7 +157,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/57mm_compass.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/57mm_compass.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m> 0.0350</y-m>
@@ -167,7 +167,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/57mm_screws.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/57mm_screws.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m> 0.0350</y-m>
@@ -177,7 +177,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/57mm_turnslip.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/57mm_turnslip.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m> 0.0350</y-m>
@@ -187,7 +187,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/57mm_screws.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/57mm_screws.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m> 0.0350</y-m>
@@ -197,7 +197,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/57mm_fsg2t.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/57mm_fsg2t.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m>-0.0350</y-m>
@@ -207,7 +207,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/57mm_screws.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/57mm_screws.xml</path>
     <offsets>
       <x-m>-1.2400</x-m>
       <y-m>-0.0350</y-m>
@@ -217,7 +217,7 @@
    </model>
 
   <model>
-    <path>Aircraft/DG-101G/Models/Instruments/wollfaden.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Instruments/wollfaden.xml</path>
     <offsets>
       <x-m>-1.2600</x-m>
       <y-m> 0.0000</y-m>
@@ -232,7 +232,7 @@
  <!-- Stickers -->
  
   <model>
-    <path>Aircraft/DG-101G/Models/Stickers/gear_down.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Stickers/gear_down.xml</path>
     <offsets>
       <x-m> 1.3000</x-m>
       <y-m>-0.2400</y-m>
@@ -245,7 +245,7 @@
    
    
   <model>
-    <path>Aircraft/DG-101G/Models/Stickers/gear_up.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Stickers/gear_up.xml</path>
     <offsets>
       <x-m>-1.1800</x-m>
       <y-m>-0.2100</y-m>
@@ -258,7 +258,7 @@
    
    
   <model>
-    <path>Aircraft/DG-101G/Models/Stickers/airbrake_out.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Stickers/airbrake_out.xml</path>
     <offsets>
       <x-m>-1.0600</x-m>
       <y-m>-0.2580</y-m>
@@ -271,7 +271,7 @@
    
    
   <model>
-    <path>Aircraft/DG-101G/Models/Stickers/brake_on.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Stickers/brake_on.xml</path>
     <offsets>
       <x-m>-0.9000</x-m>
       <y-m>-0.2700</y-m>
@@ -284,7 +284,7 @@
    
    
   <model>
-    <path>Aircraft/DG-101G/Models/Stickers/trim_head.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Stickers/trim_head.xml</path>
     <offsets>
       <x-m>-1.1100</x-m>
       <y-m>-0.2550</y-m>
@@ -299,7 +299,7 @@
    
    
   <model>
-    <path>Aircraft/DG-101G/Models/Stickers/trim_tail.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Stickers/trim_tail.xml</path>
     <offsets>
       <x-m>-1.0100</x-m>
       <y-m>-0.2640</y-m>
@@ -314,7 +314,7 @@
    
    
   <model>
-    <path>Aircraft/DG-101G/Models/Stickers/ballast.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Stickers/ballast.xml</path>
     <offsets>
       <x-m>-1.0300</x-m>
       <y-m> 0.2650</y-m>
@@ -330,7 +330,7 @@
 
  <!-- Pilot -->
   <model>
-    <path>Aircraft/DG-101G/Models/Pilot/pilot.xml</path>
+    <path>Aircraft/DG-101G-kider/Models/Pilot/pilot.xml</path>
     <offsets>
       <x-m>-0.56</x-m>
       <y-m> 0.00</y-m>
